@@ -18,7 +18,22 @@ ModelImporter:
     3300002: Turret.001
     4300000: Turret.001
     4300002: Turret
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turret_GunMetal
+    second: {fileID: 2100000, guid: c016f886aff8e9b4e9dae1ddd4faa0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turret_Metal
+    second: {fileID: 2100000, guid: 63d3e81e057b6554785bc6e15fc73b2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turret_Metal2
+    second: {fileID: 2100000, guid: bb662d086263f07498951dd213a93d38, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

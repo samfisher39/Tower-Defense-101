@@ -17,7 +17,7 @@ public class WaveSpawner : MonoBehaviour {
     {
         if(countdown <= 0)
         {
-            StartCoroutine(spawnWave());
+            StartCoroutine(SpawnWave());
             countdown = deltaTimeWaves;
         }
 
@@ -26,7 +26,7 @@ public class WaveSpawner : MonoBehaviour {
         waveCountdownText.text = Mathf.Round(countdown).ToString();
     }
 
-    IEnumerator spawnWave()
+    IEnumerator SpawnWave()
     {
         waveIndex++;
 
